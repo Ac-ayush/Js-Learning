@@ -56,10 +56,17 @@ const gameplayInfo = {
     gun : "car98",
     aliveFriends: " 3"
 }
-
+printTheUserNo(gameplayInfo)
 
 const {health} = gameplayInfo;
 console.log(health)
 
 const {aliveFriends : kitneZindaHe} = gameplayInfo ;
 console.log(kitneZindaHe)
+
+
+function printTheUserNo({userNo}){
+    console.log(`Hi this is userNo: ${userNo}`);
+}
+
+printTheUserNo(gameplayInfo)
